@@ -1,3 +1,3 @@
 pub fn print(){
-    println!("Hey, babe.")
+    println!("Hey, babe.");
 }
