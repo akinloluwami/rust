@@ -3,5 +3,5 @@ mod vars;
 
 fn main() {
     print::print();
-    print::vars();
+    vars::vars();
 }
