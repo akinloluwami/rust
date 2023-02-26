@@ -5,4 +5,6 @@ pub fn vars() {
 
     //Mutable
     let mut age =  21;
+
+    println!("{} is {} years old", name, age);
 }
