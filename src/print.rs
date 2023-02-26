@@ -10,4 +10,8 @@ pub fn print(){
     //Positional arguments
 
     println!("{0} loves to code and {0} doesn't like {1}", "Akinkunmi", "football");
+
+    //Named arguments
+
+    println!("We all love {programmingLanguage}", programmingLanguage = "JavaScript")
 }
