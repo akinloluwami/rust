@@ -14,4 +14,9 @@ pub fn vars() {
     const ID: i32 = 001;
 
     println!("{}", ID);
+
+    //Assign multiple vars
+     let (name_of_building, feet) = ("Burj Khalifa", 2720);
+
+     println!("The {} is {} feet tall", name_of_building, feet);
 }
