@@ -2,5 +2,6 @@ mod print;
 mod vars;
 
 fn main() {
-    print::print()
+    print::print();
+    print::vars();
 }
