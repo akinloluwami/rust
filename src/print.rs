@@ -13,5 +13,9 @@ pub fn print(){
 
     //Named arguments
 
-    println!("We all love {programmingLanguage}", programmingLanguage = "JavaScript")
+    println!("We all love {programmingLanguage}", programmingLanguage = "JavaScript");
+
+    //Placeholder traits
+
+    println!("Binary: {:b} Hex: {:x} Octal: {:o}", 2, 34, 16);
 }
