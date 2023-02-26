@@ -8,5 +8,10 @@ pub fn vars() {
 
     age = age + 1;
 
-    println!("{} is {} years old", name, age)
+    println!("{} is {} years old", name, age);
+
+    //Define constant
+    const ID: i32 = 001;
+
+    println!("{}", ID);
 }
