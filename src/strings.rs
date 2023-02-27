@@ -5,6 +5,8 @@ pub fn strings(){
 
     //Growable, heap-memory allocated
     let msg = String::from("Even if you're not ready for the day, it cannot always be night.");
+    println!("{}", msg);
 
-    println!("{}", msg)
+    //Get length
+    println!("{}", msg.len());
 }
