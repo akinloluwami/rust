@@ -10,8 +10,10 @@ pub fn strings(){
     //Get length
     println!("{}", msg.len());
 
-    //Push
+    //Push single character
     msg.push('W');
+    
+    //Push multiple characters
     msg.push_str("orld");
 
     println!("{}", msg);
