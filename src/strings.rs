@@ -1,14 +1,14 @@
 pub fn strings(){
 
     //Immutable fixed length string
-    let _text = "Hi";
+    let text = "Hi";
 
     //Growable, heap-memory allocated
     let mut msg = String::from("Hello ");
-    println!("{}", msg);
+    // println!("{}", msg);
 
     //Get length
-    println!("{}", msg.len());
+    // println!("{}", msg.len());
 
     //Push single character
     msg.push('W');
@@ -16,6 +16,8 @@ pub fn strings(){
     //Push multiple characters
     msg.push_str("orld");
 
-    println!("{}", msg);
+    // println!("{}", msg);
     
+    //Is empty
+    println!("Is empty: {}", text.is_empty());
 }
