@@ -4,9 +4,16 @@ pub fn strings(){
     let _text = "Hi";
 
     //Growable, heap-memory allocated
-    let msg = String::from("Even if you're not ready for the day, it cannot always be night.");
+    let mut msg = String::from("Hello ");
     println!("{}", msg);
 
     //Get length
     println!("{}", msg.len());
+
+    //Push
+    msg.push('W');
+    msg.push_str("orld");
+
+    println!("{}", msg);
+    
 }
