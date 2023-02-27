@@ -16,4 +16,6 @@ pub fn types(){
     let _bool = true;
 
     let _is_active:bool = false;
+
+    println!("{}", 2 > 6 );
 }
