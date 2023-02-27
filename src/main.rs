@@ -1,9 +1,11 @@
 // mod print;
 // mod vars;
-mod types;
+// mod types;
+mod strings;
 
 fn main() {
     // print::print();
     // vars::vars();
-    types::types();
+    // types::types();
+    strings::strings();
 }
