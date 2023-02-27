@@ -3,7 +3,7 @@ mod vars;
 mod types;
 
 fn main() {
-    print::print();
-    vars::vars();
+    // print::print();
+    // vars::vars();
     types::types();
 }
