@@ -11,4 +11,9 @@ pub fn types(){
 
     //Find max size
     println!("i32:{} | i64:{} | i128:{}", std::i32::MAX, std::i64::MAX, std::i128::MAX);
+
+    //Boolean
+    let _bool = true;
+
+    let _is_active:bool = false;
 }
