@@ -18,4 +18,11 @@ pub fn types(){
     let _is_active:bool = false;
 
     println!("{}", 2 > 6 );
+
+    //Char
+    let _f = 'f';
+    let heart = '\u{2665}';
+
+    println!("{}", heart);
+
 }
