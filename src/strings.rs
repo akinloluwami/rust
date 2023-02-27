@@ -1,7 +1,7 @@
 pub fn strings(){
 
     //Immutable fixed length string
-    let text = "Hi";
+    let text = "Hii";
 
     //Growable, heap-memory allocated
     let mut msg = String::from("Hello ");
