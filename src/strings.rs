@@ -4,7 +4,7 @@ pub fn strings(){
     let _text = "Hi";
 
     //Growable, heap-memory allocated
-    let msg = String::from("Even if you're not ready for the day, it can't always be night.");
+    let msg = String::from("Even if you're not ready for the day, it cannot always be night.");
 
     println!("{}", msg)
 }
