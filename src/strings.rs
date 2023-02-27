@@ -19,5 +19,13 @@ pub fn strings(){
     // println!("{}", msg);
     
     //Is empty
-    println!("Is empty: {}", text.is_empty());
+    // println!("Is empty: {}", text.is_empty());
+
+    //Contain
+    println!("Contains 'a': {}", text.contains("a"));
+
+
+    //Replace
+    println!("{}", text.replace("i", "a"))
+
 }
